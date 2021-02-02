@@ -1,0 +1,16 @@
+.simple-feed .feed-item {
+  border-left: 2px solid #141414;
+}
+
+.simple-feed .feed-item::after {
+  border: 2px solid #141414;
+}
+
+.step-wp {
+  font-weight: bold;
+  font-size: 1.2em !important;
+}
+
+.step-wp-desc {
+  font-size: 1.2em;
+}

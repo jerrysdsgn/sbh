@@ -1,0 +1,134 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.spacer {
+  margin-bottom: 120px;
+}
+
+.navbar-wrapper .navbar-brand img {
+  height: 55px;
+}
+
+.navbar-item img {
+  max-height: 100% !important;
+}
+
+.navbar-wrapper.is-transparent .navbar-item.is-slide:after,
+.navbar-wrapper.is-transparent .navbar-link.is-slide:after {
+  background: #58a4fe !important;
+}
+
+.button.primary-btn {
+  border-color: #58a4fe !important;
+  background-color: #58a4fe !important;
+}
+
+.button.secondary-btn {
+  border-color: #58a4fe !important;
+  background-color: #58a4fe !important;
+}
+
+.control-material.is-secondary .bar:before,
+.control-material.is-secondary .bar:after {
+  background: #58a4fe !important;
+}
+
+.email-label {
+  color: #4a4a4a !important;
+}
+
+.blog-grid-item .card-content {
+  padding: 26px 0px !important;
+}
+
+.blog-grid-item .card-content .read-more-link {
+  color: #141414 !important;
+}
+
+.section.is-theme-grey {
+  background: #fafafa !important;
+}
+
+.slide-control .slide-dot.is-active p {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  color: #4a4a4a !important;
+}
+
+.wp-desc-icon {
+  font-size: 2em;
+}
+
+.feed-item span {
+  color: #58a4fe;
+  font-weight: bold;
+}
+
+.title-wrap h3 {
+  color: #4a4a4a !important;
+}
+
+.process-wrap .process-block .text-block p {
+  color: #4a4a4a !important;
+}
+
+p {
+  color: #4a4a4a !important;
+}
+
+.section .section-feature-description {
+  color: #4a4a4a !important;
+}
+
+.navbar-wrapper .navbar-item.is-button:hover > .button.primary-btn {
+  background: #58a4fe !important;
+}
+
+.navbar-wrapper .navbar-item.is-button:hover > .button.primary-btn {
+  background: #58a4fe !important;
+}
+
+.navbar-end {
+  font-size: 14px;
+}
+
+.title-wrap h3 {
+  line-height: 1.8 !important;
+}
+
+.install-step-toggles li {
+  cursor: pointer;
+}
+
+.install-step-toggles li:hover {
+  background: #58a4fe;
+  color: white;
+}
+
+.install-step-toggles a:hover {
+  color: white;
+}
+
+.is-active-bluehost {
+  background: #58a4fe;
+  color: white;
+}
+
+.is-active-inmotion {
+  background: #58a4fe;
+  color: white;
+}
+
+.is-active-elementor {
+  background: #58a4fe;
+  color: white;
+}
+
+.contact-toggler .tabbed-links li {
+  font-size: 1.5em;
+}
+
+.contact-toggler .tabbed-links li:hover {
+  cursor: pointer;
+}
