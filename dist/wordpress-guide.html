@@ -31,16 +31,6 @@
         }
     </style>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z7RKRQ5TDQ"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-Z7RKRQ5TDQ');
-    </script>
-
 </head>
 
 <body class="is-theme-core">
@@ -164,19 +154,358 @@
         </div>
       </nav>
 
-      <div class="spacer"></div>
+    <!-- Simple feeds -->
+    <div class="section section-feature-grey">
+        <div class="container">
+            <!-- Activity Feed -->
 
-      <section>
-          <div class="container">
-              <div class="columns is-vcentered">
-                  <div class="column has-text-centered">
-                      <h1 class="title is-1">Page Under Construction</h1>
-                      <img style="height: 300px;" src="./img/construction.svg" alt="">
-                  </div>
-              </div>
-          </div>
-      </section>
+            <div class="columns is-vcentered pt-30 pb-60">
+                <div class="column">
+                    <h1 class="title is-1">
+                        The 4 steps to create a site with Wordpress
+                    </h1>
+                    <h2 class="subtitle is-4">
+                        From 0 to having a completed site in 4 easy steps.
+                    </h2>
+                </div>
+                <div class="column is-6 is-offset-1">
+                    <!-- Feed -->
+                    <ol class="simple-feed">
+                        <!-- Feed item -->
+                        <li class="feed-item">
+                            <i class="fa fa-server wp-desc-icon"></i>
+                            <div class="feed-item-text">
+                                <span class="date is-uppercase step-wp">step 1</span>
+                                <a href="#step1"><span class="text step-wp-desc">Getting a web hosting plan</span></a>
+                            </div>
+                        </li>
+                        <!-- Feed item -->
+                        <li class="feed-item">
+                            <i class="fa fa-wordpress wp-desc-icon"></i>
+                            <div class="feed-item-text">
+                                <span class="date is-uppercase step-wp">step 2</span>
+                                <a href="#step2"><span class="text step-wp-desc">Installing Wordpress</span></a>
+                            </div>
+                        </li>
+                        <!-- Feed item -->
+                        <li class="feed-item">
+                            <i class="fa fa-toolbox wp-desc-icon"></i>
+                            <div class="feed-item-text">
+                                <span class="date is-uppercase step-wp">step 3</span>
+                                <a href="#step3"><span class="text step-wp-desc">Installing Elementor</span></a>
+                            </div>
+                        </li>
+                        <!-- Feed item -->
+                        <li class="feed-item">
+                            <i class="fa fa-cog wp-desc-icon"></i>
+                            <div class="feed-item-text">
+                                <span class="date is-uppercase step-wp">step 4</span>
+                                <a href="#step4"><span class="text step-wp-desc">Customize website</span></a>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <!-- Contact Section -->
+    <div id="step1"></div>
+    <div class="section section-feature-grey">
+        <div class="container">
+            <div class="columns is-vcentered">
+                <div class="column is-5">
+                    <h3 class="detailed-feature-subtitle is-uppercase step-txt">step 1</h3>
+                    <br />
+                    <h2 class="title section-title is-demo bordered dark-text no-margin">Selecting a Web Host</h2>
+                    <br />
+                    <span class="section-feature-description"><span style="font-weight: bold;">Every Wordpress website needs a web host.</span> Bluehost and Inmotion are top choices and industry leaders. We offer a quick comparison so you can check out which one aligns better to what you require.</span>
+                    <br />
+                    <br />
+                    <div class="contact-toggler">
+                        <ul class="tabbed-links">
+                            <li class="is-active" data-contact="cost-effective">Best Cost-Effective solution</li>
+                            <br />
+                            <br />
+                            <li data-contact="persormance-solution">Best Performance Solution</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="column is-6 is-offset-1">
+                    <!-- Contact info tabs -->
+                    <div class="contact-toggler">
+                        <div class="contact-blocks">
+                            <!-- Tab content -->
+                            <div id="cost-effective" class="contact-block animated preFadeInUp fadeInUp">
+                                <div>
+                                    <img class="host-img" src="./img/bluehost.png" alt="">
+                                    <br />
+                                    <span class="tag is-info is-medium" style="color: white;">Starting Price:&nbsp;<span style="font-weight: bold;">$5.95usd<sub>/month</sub></span></span>
+                                    <br />
+                                    <br />
+                                    <ul style="color: #4a4a4a; font-weight: bold;">
+                                        <li>Domain included</li>
+                                        <li>SSL included</li>
+                                        <li>Hosting for 1 website</li>
+                                    </ul>
+                                    <br />
+                                    <p style="color: #4a4a4a; font-weight: bold;">Ideal use cases</p>
+                                    <ul>
+                                        <li>You are just starting out.</li>
+                                        <li>Your priority is to have a high quality cost-effective solution</li>
+                                    </ul>
+                                    <a class="button button-cta is-bold btn-align primary-btn raised mt-20 mb-20">
+                                        Choose Bluehost
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Tab content -->
+                            <div id="persormance-solution" class="contact-block animated preFadeInUp fadeInUp is-hidden">
+                                <div>
+                                    <img class="host-img" src="./img/inmotion.png" alt="">
+                                    <br />
+                                    <span class="tag is-danger is-medium" style="color: white;">Starting Price:&nbsp;<span style="font-weight: bold;">$8.99usd<sub>/month</sub></span></span>
+                                    <br />
+                                    <br />
+                                    <ul style="color: #4a4a4a; font-weight: bold;">
+                                        <li>Domain included</li>
+                                        <li>SSL included</li>
+                                        <li>Hosting for 1 website</li>
+                                        <li>Unlimited email accounts</li>
+                                        <li>Unlimited Bandwidth</li>
+                                    </ul>
+                                    <br />
+                                    <p style="color: #4a4a4a; font-weight: bold;">Ideal use cases</p>
+                                    <ul>
+                                        <li>Perfect for small businesses</li>
+                                        <li>Your main priority is website's speed</li>
+                                    </ul>
+                                    <a class="button button-cta is-danger red-shadow mt-20 mb-20">
+                                        Choose InMotion
+                                    </a>
+                                </div>
+                            </div>
+                            <h3 class="detailed-feature-subtitle is-uppercase step-txt"><a href="#step2">Next step</a></h3>
+                        </div>
+                    </div>
+                    <!-- Illustration -->
+                    <img src="assets/img/graphics/drawings/drawing-6-core.svg" data-base-url="assets/img/graphics/drawings/drawing-6" data-extension=".svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="step2"></div>
+    <div class="section is-medium section-feature-grey is-contain">
+        <div class="container">
+            <h3 class="detailed-feature-subtitle is-uppercase step-txt">step 2</h3>
+            <!-- Title -->
+            <div class="section-title-wrapper has-text-centered">
+                <!-- Divider -->
+                <h2 class="title is-2">Installing Wordpress</h2>
+            </div>
+
+            <!-- Content -->
+            <div class="content-wrapper">
+                <!-- Controls -->
+                <div class="slide-control">
+                    <div class="slide-dot is-active" data-feature="mockup-1" data-feature-text="feature-1">
+                        <p>Installing on Bluehost</p>
+                    </div>
+                    <div id="installInmotion" class="slide-dot" data-feature="mockup-2" data-feature-text="feature-2">
+                        <p>Installing on InMoton</p>
+                    </div>
+                </div>
+                <div class="columns is-vcentered">
+                    <!-- App mockups -->
+                    <div class="column is-7">
+                        <div class="showcase-wrapper">
+                            <div id="mockup-1" class="showcase-wrap is-active">
+                                <video id="installStep" class="app-showcase" src="gif/BluehostWpInstall-Step1.mp4" muted autoplay loop></video>
+                            </div>
+                            <div id="mockup-2" class="showcase-wrap">
+                                <video id="installStepI"  class="app-showcase" src="gif/inmotionInstall1.mp4" muted autoplay loop></video>
+                            </div>
+                            <br />
+                            <p id="stepDesc"></p>
+                        </div>
+                    </div>
+                    <!-- Mockups content -->
+                    <div class="column is-5">
+                        <!-- Feature -->
+                        <div id="feature-1" class="showcase-text-wrapper animated preFadeInUp fadeInUp">
+                            <ul id="bhSteps" class="install-step-toggles">
+                                <li class="bh-install-list is-active-bluehost" id="toggleStep1bluehost" style="padding: 15px; font-size: 20px;"><i class="fa fa-video"></i>&nbsp;Step 1: Access Mysites.</li>
+                                <li class="bh-install-list"  id="toggleStep2bluehost" style="padding: 15px; font-size: 20px;"><i class="fa fa-video"></i>&nbsp;Step 2: Go to manage site and click Log Into Wordpress.</li>
+                                <li class="bh-install-list"  id="toggleStep3bluehost" style="padding: 15px; font-size: 20px;"><i class="fa fa-video"></i>&nbsp;Step 3: You will get send to the main dashboard.</li>
+                                <li class="bh-install-list"  id="toggleStep4bluehost" style="padding: 15px; font-size: 20px;"><i class="fa fa-video"></i>&nbsp;Step 4: Set SSL certificate.</li>
+                            </ul>
+                            <br />
+                            <h3 class="detailed-feature-subtitle is-uppercase step-txt"><a href="#step3">Next step</a></h3>
+                        </div>
+                        <!-- Feature -->
+                        <div id="feature-2" class="showcase-text-wrapper animated preFadeInUp fadeInUp is-hidden">
+                            <ul id="imSteps" class="install-step-toggles">
+                                <li id="toggleStep1inmotion" class="im-install-list is-active-inmotion" style="padding: 15px; font-size: 20px;"><i class="fa fa-video"></i>&nbsp;Step 1: Access cPanel</li>
+                                <li id="toggleStep2inmotion" class="im-install-list"  style="padding: 15px; font-size: 20px;"><i class="fa fa-video"></i>&nbsp;Step 2: Select Wordpress from top applications section</li>
+                                <li id="toggleStep3inmotion" class="im-install-list" style="padding: 15px; font-size: 20px;"><i class="fa fa-video"></i>&nbsp;Step 3: Enter website's data and install Wordpress</li>
+                                <li id="toggleStep4inmotion" class="im-install-list" style="padding: 15px; font-size: 20px;"><i class="fa fa-video"></i>&nbsp;Step 4: Set SSL certificate.</li>
+                            </ul>
+                            <br />
+                            <h3 class="detailed-feature-subtitle is-uppercase step-txt"><a href="#step3">Next step</a></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="step3"></div>
+    <div class="section section-feature-grey is-medium">
+        <div class="container">
+            <div class="columns is-vcentered">
+                <div class="column is-5">
+                    <h3 class="detailed-feature-subtitle is-uppercase step-txt">step 3</h3>
+                    <br />
+                    <h2 class="title section-title is-demo bordered dark-text no-margin">Installing Elementor</h2>
+                    <br />
+                    <span id="elementorInstallDesc" class="section-feature-description">We've selected Elementor as our main design tool; its flexibility is unmatched, you can build any type of website with it, ideal for beginner and experienced users (And its FREE!). <br /><br />You can access using the button below</span>
+                    <br />
+                    <div>
+                        <a href="https://elementor.com/?ref=12788&campaign=wp-guide" class="button button-cta is-bold btn-align elementor-btn raised mt-20 mb-20" target="_blank">
+                            Access Elementor
+                        </a>
+                    </div>
+                    <br />
+                    <ul id="elSteps" class="install-step-toggles">
+                        <li class="el-install-list is-active-elementor" id="elementorInstall1" style="padding: 15px; font-size: 20px;"><i class="fa fa-video"></i>&nbsp;Step 1: Get Started and create an account</li>
+                        <li class="el-install-list"  id="elementorInstall2" style="padding: 15px; font-size: 20px;"><i class="fa fa-video"></i>&nbsp;Step 2: Elementor Intro (You can skip it)</li>
+                        <li class="el-install-list"  id="elementorInstall3" style="padding: 15px; font-size: 20px;"><i class="fa fa-video"></i>&nbsp;Step 3: Select a plan and verify your website's domain</li>
+                        <li class="el-install-list"  id="elementorInstall4" style="padding: 15px; font-size: 20px;"><i class="fa fa-video"></i>&nbsp;Step 4: Install Elementor in your Wordpress account</li>
+                    </ul>
+                    <br />
+                    <br />
+                    <h3 class="detailed-feature-subtitle is-uppercase step-txt"><a href="#step4">Last step</a></h3>
+                </div>
+                <div class="column is-6 is-offset-1">
+                    <div class="showcase-wrapper">
+                        <div id="">
+                            <video id="elementorInstallVisual" class="app-showcase" src="gif/elementor/elementorStep1.mp4" muted autoplay loop></video>
+                        </div>
+                        <br />
+                        <p id="elemDesc">Click the Get Started button and create an account</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="step4"></div>
+    <div class="section">
+        <div class="container">
+
+            <div class="centered-title">
+                <h3 class="detailed-feature-subtitle is-uppercase step-txt">step 4</h3>
+                <h2>Customize your website</h2>
+                <div class="title-divider"></div>
+                <div class="subheading">
+                    In this section, you will learn how to use Elementor to build a website with a high quality design.
+                </div>
+            </div>
+
+            <div class="content-wrapper">
+                <div class="columns is-vcentered latest-posts">
+
+                    <div class="column is-4">
+                        <div class="card">
+                            <!---
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img src="https://via.placeholder.com/1280x960" alt="" data-demo-src="assets/img/demo/agency/posts/data-insight.jpeg">
+                                </figure>
+                            </div>
+                            -->
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-content">
+                                        <p class="title is-5">Landing Page Tutorial</p>
+                                    </div>
+                                </div>
+
+                                <div class="post-exerpt">
+                                    
+                                </div>
+                                <div class="has-text-centered">
+                                    <a class="button button-cta is-bold btn-align primary-btn raised mt-20 mb-20">
+                                        Tutorial in production
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column is-4">
+                        <div class="card">
+                            <!---
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img src="https://via.placeholder.com/1280x960" alt="" data-demo-src="assets/img/demo/agency/posts/data-insight.jpeg">
+                                </figure>
+                            </div>
+                            -->
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-content">
+                                        <p class="title is-5">Portfolio Site Tutorial</p>
+                                    </div>
+                                </div>
+
+                                <div class="post-exerpt">
+                                    
+                                </div>
+                                <div class="has-text-centered">
+                                    <a class="button button-cta is-bold btn-align primary-btn raised mt-20 mb-20">
+                                        Tutorial in production
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column is-4">
+                        <div class="card">
+                            <!---
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img src="https://via.placeholder.com/1280x960" alt="" data-demo-src="assets/img/demo/agency/posts/data-insight.jpeg">
+                                </figure>
+                            </div>
+                            -->
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-content">
+                                        <p class="title is-5">Online Store Tutorial</p>
+                                    </div>
+                                </div>
+
+                                <div class="post-exerpt">
+
+                                </div>
+                                <div class="has-text-centered">
+                                    <a class="button button-cta is-bold btn-align primary-btn raised mt-20 mb-20">
+                                        Tutorial in production
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
     <!-- Footer -->
     <footer class="footer-light-medium">
         <div class="container">
@@ -192,11 +521,11 @@
                     <div>
                         <span class="moto">Follow Sitebuildinghub:</span>
                         <div class="social-links">
-                            <a href="https://www.youtube.com/channel/UCSroUB7M98Ay4P0FHNQdVjA" target="_blank">
-                                <span class="icon"><i style="font-size: 1.5em;" class="fa fa-youtube"></i></span>
+                            <a href="#">
+                                <span class="icon"><i class="fa fa-youtube"></i></span>
                             </a>
                             <a href="https://www.instagram.com/sitebuildinghub/" target="_blank">
-                                <span class="icon"><i style="font-size: 1.5em;" class="fa fa-instagram"></i></span>
+                                <span class="icon"><i class="fa fa-instagram"></i></span>
                             </a>
                         </div>
                     </div>
@@ -227,6 +556,17 @@
                                 <li class="column-item"><a href="wix-review.html">Wix</a></li>
                             </ul>
                         </div>
+                        <!-- Column -->
+                        <!--<div class="column">
+                            <ul class="footer-column">
+                                <li class="column-header">
+                                    Terms
+                                </li>
+                                <li class="column-item"><a href="#">Terms of Service</a></li>
+                                <li class="column-item"><a href="#">Privacy policy</a></li>
+                                <li class="column-item"><a href="#">SaaS services</a></li>
+                            </ul>
+                        </div>-->
                     </div>
                 </div>
             </div>
@@ -234,7 +574,22 @@
                 <p>&copy; 2020-<span id="currentYear"></span> | All Rights Reserved.</p>
             </div>
         </div>
-    </footer> <!-- Side navigation -->
+    </footer> 
+
+    <!-- /Side navigation -->
+    <!-- Back To Top Button -->
+    <div id="backtotop"><a href="#"></a></div>
+
+    <script src="js/wordpressGuide.js"></script>
+    <script src="js/date.js"></script>
+    <!-- Concatenated jQuery and plugins -->
+    <script src="js/app.js"></script>
+
+    <!-- Bulkit js -->
+    <script src="js/functions.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
 

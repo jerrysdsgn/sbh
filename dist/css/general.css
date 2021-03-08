@@ -29,6 +29,17 @@ html {
   background-color: #58a4fe !important;
 }
 
+.elementor-btn {
+  border-color: #da3660;
+  background-color: #da3660;
+  color: white;
+  box-shadow: 4px 4px 14px 0px rgb(218 27 27 / 50%);
+}
+
+.elementor-btn:hover {
+  color: white;
+}
+
 .control-material.is-secondary .bar:before,
 .control-material.is-secondary .bar:after {
   background: #58a4fe !important;
@@ -102,7 +113,12 @@ p {
 }
 
 .install-step-toggles li:hover {
-  background: #58a4fe;
+  background: #141414;
+  color: white;
+}
+
+.install-step-toggles-elementor li:hover {
+  background: #f14668;
   color: white;
 }
 
@@ -116,12 +132,12 @@ p {
 }
 
 .is-active-inmotion {
-  background: #58a4fe;
+  background: #f14668;
   color: white;
 }
 
 .is-active-elementor {
-  background: #58a4fe;
+  background: #f14668;
   color: white;
 }
 
